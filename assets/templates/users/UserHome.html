@@ -1,0 +1,54 @@
+{% extends 'users/userbase.html' %}
+
+{% block title %}
+    User Home
+{% endblock %}
+
+
+{% block user_home %}
+    active
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <marquee behavior="slide" direction="up">
+                <center>
+                    <p class="display-5">Welcome User</p>
+                    <p> The objective of our research is to investigate how
+                        machine learning methods can be utilized to analyze the
+                        emotions and attitudes expressed in human thinking. The study
+                        collected data from social media platforms and online forums,
+                        which included a mix of positive, negative, and neutral
+                        sentiments expressed by users. Several machine learning
+                        algorithms, including Naive Bayes, logistic_regression, RNNs, decision tree and
+                        LSTM Networks, were employed for sentiment analysis of the
+                        data. The study found that the performance of these algorithms
+                        varied depending on the type of data being analyzed, with some
+                        algorithms performing better for short texts such as tweets,
+                        while others worked better for longer texts such as news articles.
+                        Additionally, the study found that combining multiple
+                        algorithms could improve the accuracy of sentiment analysis.
+                        According to the findings, it appears that the utilization of
+                        machine learning methods can serve as a potent means of
+                        scrutinizing human thoughts and emotions, which can have
+                        implications for a range of applications, including marketing,
+                        politics, and mental health. This article provides a
+                        comprehensive and organized review of sentiment analysis
+                        methods. The motive of the review is to analyze and categorize
+                        available techniques while comparing their strengths and
+                        weaknesses. The aim is to gain a deeper understanding of the
+                        challenges that exist in the field and to identify potential
+                        solutions and future directions. To facilitate this analysis, we
+                        also introduce several factors that can be used to evaluate the
+                        advantages and disadvantages of each method within its
+                        category</p>
+                </center>
+                </marquee>
+            </marquee>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
